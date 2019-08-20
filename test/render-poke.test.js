@@ -5,7 +5,7 @@ const test = QUnit.test;
 QUnit.module('render a pokemon');
 
 test('renders html for pokemon list item', assert => {
-  console.log('in test');
+  
   const pokemon = {
     '_id': '5cef3501ef6005a77cd4fdd0',
     'pokemon': 'pichu',
